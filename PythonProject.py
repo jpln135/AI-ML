@@ -52,7 +52,7 @@ plt.ylabel('$y$')
 
 x1 = np.linspace(O[0][0] - (r+1), O[0][0] + (r+1),100)
 y1 = 0.25*x1 - 0.75
-plt.plot(x1,y1, label = '$Given-line$')
+plt.plot(x1,y1, label = '$Given line$')
 
 plt.plot(2,3,'o')
 plt.text(2.1, 3.1, 'A')
@@ -67,4 +67,5 @@ plt.axis('equal')
 plt.title('Plot of the circle')
 plt.legend(loc = 'best')
 plt.grid()
+plt.savefig('Circle_Line.png')
 plt.show()
