@@ -61,10 +61,10 @@ plt.text(4.1, 5.1, 'B')
 plt.text(-0.43,- 2.7, 'radius = 5.84')
 
 plt.plot(O[0,0],O[1,0],'o')
-plt.text(D[0] + 0.1, D[1] + 0.1, '$Centre$')
+plt.text(D[0] - 0.5, D[1] + 0.5, '$Centre$')
 
 plt.axis('equal')
-plt.title('Plot of the circle')
+plt.title('Plot of the Circle')
 plt.legend(loc = 'best')
 plt.grid()
 plt.savefig('Circle_Line.png')
